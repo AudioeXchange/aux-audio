@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ліцензія AUX</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #0f0f14, #1a1a2e, #12121a);
+    background-attachment: fixed;
+    color: #f5f5f5;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(25px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 60px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(14px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 25px 70px rgba(0,0,0,0.6);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+.lang-switch {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lang-switch a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.lang-switch a.active {
+    background: #9aa0ff;
+    color: #000;
+    border-color: #9aa0ff;
+}
+
+.lang-switch a:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #9aa0ff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+.allowed { color: #6CFF8F; }
+.denied { color: #FF6B6B; }
+
+.credit-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+    position: relative;
+    font-size: 14px;
+}
+
+.copy-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: #9aa0ff;
+    color: #000;
+    transition: 0.3s;
+}
+
+.copy-btn:hover {
+    background: #b6bbff;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Ліцензія AUX</h1>
+<div class="subtitle">
+Офіційна ліцензія на використання релізів Audio eXchange (AUX).
+</div>
+
+<div class="lang-switch">
+<a href="license.html">🇺🇸 English</a>
+<a href="license-es.html">🇪🇸 Español</a>
+<a href="license-ru.html">🇷🇺 Русский</a>
+<a href="license-ua.html" class="active">🇺🇦 Українська</a>
+</div>
+
+<div class="section">
+<h2>✔ Дозволене використання</h2>
+<ul>
+<li class="allowed">✔ Використання у відео YouTube та прямих ефірах</li>
+<li class="allowed">✔ Використання у Shorts, Reels та TikTok</li>
+<li class="allowed">✔ Комерційні та некомерційні проєкти</li>
+<li class="allowed">✔ Використання по всьому світу без обмежень у часі</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>✔ Обов’язкове зазначення авторства</h2>
+<p>Необхідно додати наступний кредит:</p>
+
+<div class="credit-box" id="creditText">
+<button class="copy-btn" onclick="copyCredit()">Копіювати</button>
+
+Artist Name: <br>
+Track Name: <br>
+Music provided by:
+https://www.youtube.com/@audio_exchange
+
+</div>
+</div>
+
+<div class="section">
+<h2>✔ Політика Content ID</h2>
+<ul>
+<li class="allowed">✔ Відсутність автоматичних заяв за умови правильного використання</li>
+<li class="denied">✖ Заборонена реєстрація у системах Content ID</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>❌ Заборонено</h2>
+<ul>
+<li class="denied">✖ Перезавантаження або повторне розповсюдження треків</li>
+<li class="denied">✖ Продаж або субліцензування музики</li>
+<li class="denied">✖ Завантаження на Spotify, Apple Music та інші стрімінгові платформи</li>
+<li class="denied">✖ Реєстрація у системах Content ID</li>
+<li class="denied">✖ Присвоєння авторства</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Право власності</h2>
+<p>
+Усі права залишаються за оригінальним артистом та проєктом AUX.
+Ця ліцензія надає лише право використання та не передає право власності.
+</p>
+</div>
+
+<div class="section">
+<h2>Прийняття умов</h2>
+<p>
+Завантажуючи або використовуючи музику AUX,
+ви підтверджуєте, що прочитали, зрозуміли та погодилися з умовами цієї ліцензії.
+</p>
+</div>
+
+<div class="footer">
+© AUX — Music for Creators
+</div>
+
+</div>
+
+<script>
+function copyCredit() {
+    const text = `Artist Name:
+Track Name:
+Music provided by:
+https://www.youtube.com/@audio_exchange`;
+
+    navigator.clipboard.writeText(text).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.innerText = "Скопійовано ✓";
+        setTimeout(() => {
+            btn.innerText = "Копіювати";
+        }, 2000);
+    });
+}
+</script>
+
+</body>
+</html>
