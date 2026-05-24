@@ -1,1 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AUX Background Music FM — Tracklist</title>
 
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #0f0f14, #1a1a2e, #12121a);
+    color: #f5f5f5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 60px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(14px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 25px 70px rgba(0,0,0,0.6);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 34px;
+}
+
+.subtitle {
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+/* SEARCH */
+.search-box {
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.04);
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    transition: 0.25s;
+}
+
+.search-input:focus {
+    border-color: #9aa0ff;
+    background: rgba(255,255,255,0.06);
+}
+
+.search-input::placeholder {
+    color: rgba(255,255,255,0.4);
+}
+
+/* TRACKS */
+#trackList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.03);
+    transition: all 0.25s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+.track:hover {
+    background: rgba(154,160,255,0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.track-title {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.arrow {
+    font-size: 14px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.track:hover .arrow {
+    transform: translateX(4px);
+    opacity: 1;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AUX Background Music FM</h1>
+
+<div class="subtitle">
+AUX Background Music FM | Deep House, Electropop & Chill Beats 24/7
+</div>
+
+<div class="search-box">
+<input
+    type="text"
+    id="searchInput"
+    class="search-input"
+    placeholder="Search tracks..."
+>
+</div>
+
+<div id="trackList">
+
+<a class="track" href="afterglow.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Afterglow</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="blue-whisper.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Blue Whisper</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="boombox.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Boombox</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="casa-de-medianoche.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Casa de Medianoche</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="feel-that-low.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Feel That Low</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="funk-in-the-underground.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Funk in the Underground</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="hong-kong.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Hong Kong</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="keep-it-moving.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Keep It Moving</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="loop.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Loop</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="midnight-spiral.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Midnight Spiral</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="out-of-time.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Out of Time</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="pull-it-back.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Pull It Back</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="ride-on.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Ride On</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="right-now.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Right Now</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="same-feeling.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Same Feeling</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="soft-motion.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Soft Motion</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="stay-low.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Stay Low</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="step-by-step.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Step by Step</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="strange-kind-of-love.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Strange Kind of Love</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="velvet-signal.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Velvet Signal</div>
+    <span class="arrow">↗</span>
+</a>
+
+<a class="track" href="warm-breeze.html" target="_blank" rel="noopener noreferrer">
+    <div class="track-title">Warm Breeze</div>
+    <span class="arrow">↗</span>
+</a>
+
+</div>
+
+<div class="footer">
+© AUX — Music for Creators
+</div>
+
+</div>
+
+<script>
+/* SEARCH */
+const searchInput = document.getElementById('searchInput');
+const tracks = document.querySelectorAll('.track');
+
+searchInput.addEventListener('keyup', function() {
+    const value = this.value.toLowerCase();
+
+    tracks.forEach(track => {
+        const text = track.innerText.toLowerCase();
+
+        if (text.includes(value)) {
+            track.style.display = 'flex';
+        } else {
+            track.style.display = 'none';
+        }
+    });
+});
+
+/* AUTO SORT */
+const trackList = document.getElementById('trackList');
+const trackArray = Array.from(trackList.getElementsByClassName('track'));
+
+trackArray.sort((a, b) => {
+    const textA = a.querySelector('.track-title').innerText.toLowerCase();
+    const textB = b.querySelector('.track-title').innerText.toLowerCase();
+    return textA.localeCompare(textB);
+});
+
+trackArray.forEach(track => trackList.appendChild(track));
+</script>
+
+</body>
+</html>
